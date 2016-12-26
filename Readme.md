@@ -17,7 +17,7 @@ The features are unlabeled and can be found in the X_test.txt. The activity labe
 
 I've created a script called run_analysis.R which will read all the labels, identify the ones that are required for the analysis, read the data only for those columns, modify the label names so they are in a more readable format and merge the test and training sets together.
 
-The Subject number and the Activity columns are transformed as factors and then the tidy dataset "tidy.csv" is created.
+The Subject number and the Activity columns are transformed as factors and then the tidy dataset "tidy.txt" is created.
 
 ## The Code Book
 
