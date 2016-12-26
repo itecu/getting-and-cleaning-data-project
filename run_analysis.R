@@ -2,7 +2,6 @@ library(reshape2)
 
 file_name <- "files_activity.zip"
 
-## Download and unzip the files:
 if (!file.exists(file_name)){
   file_url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
   download.file(file_url, file_name,mode='wb')
